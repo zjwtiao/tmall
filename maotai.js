@@ -101,7 +101,7 @@ function enterTimeCheckLoop(callback){
 		console.log('时间到了！！！');
 		
 	}else{
-		setTimeout(function(){ enterTimeCheckLoop(callback);},400);
+		setTimeout(function(){ enterTimeCheckLoop(callback);},50);
 		
 		console.log('--');
 	}
